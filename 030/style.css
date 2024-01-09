@@ -1,0 +1,45 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginPage{
+    display: flex;
+    justify-content: center;
+    min-height: 40vh;
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+    max-width: 80vh;
+    padding-inline: 5vh;
+    padding-block: 5vh;
+    border: 1px transparent;
+    border-radius: 2.5vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.loginContainer input{
+    margin-top: 2vh;
+    min-height: 4vh;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.loginContainer button{
+    margin-top: 2vh;
+    min-height: 6vh;
+    color: white;
+    background-color: darkblue;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.loginContainer button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid darkblue;
+    color: black;
+}
+﻿
